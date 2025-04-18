@@ -1,0 +1,4 @@
+[core]
+    remote = nasremote
+['remote "nasremote"']
+    url = /mnt/nas2/dvc-cache
