@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  test_echo:
+    cmd: python src/ingestion/hello.py > data_external/hello.txt
+    deps:
+    - path: src/ingestion/hello.py
+      hash: md5
+      md5: d84985e94dde671f318076bd7a137f15
+      size: 15
+    outs:
+    - path: data_external/hello.txt
+      hash: md5
+      md5: b1946ac92492d2347c6235b4d2611184
+      size: 6

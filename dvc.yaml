@@ -1,0 +1,7 @@
+stages:
+  test_echo:
+    cmd: python src/ingestion/hello.py > data_external/hello.txt
+    deps:
+    - src/ingestion/hello.py
+    outs:
+    - data_external/hello.txt
