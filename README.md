@@ -1,1 +1,1 @@
-# Alz‑STING pathway 🎓🧬
+# Alzheimer's STING project
